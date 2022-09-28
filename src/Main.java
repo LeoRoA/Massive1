@@ -36,5 +36,14 @@ public class Main {
         for (int i = massive3.length - 1; i >= 0; i--) {
             System.out.println(massive3[i]);
         }
+
+        System.out.println("Task4:");
+        System.out.println("Массив 1: ");
+        for (int i = 0; i < massive1.length; i++) {
+            if (massive1[i] % 2 != 0) {
+                massive1[i] += 1;
+            }
+            System.out.println(massive1[i]);
+        }
     }
 }
